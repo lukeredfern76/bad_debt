@@ -1,4 +1,4 @@
-create or replace table `data-engineering-prod.u_will_rowe.tbl_Gap_brand_split_Jan24` as (
+create or replace table `data-engineering-prod.u_will_rowe.tbl_Gap_brand_split_current` as (
 
 select distinct 
 Account_no, 
