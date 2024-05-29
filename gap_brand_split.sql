@@ -7,4 +7,4 @@ Payment_Method_Category
 from `payg-revenue-assurance.account_gap_model.pa_revenue_reconciliation_master` as r
 
 where 
-  Reporting_Month = '2024-01-01'
+  Reporting_Month = date_trunc(current_date(), month) - 1
