@@ -322,6 +322,8 @@ sum(Surviving_Debt_From_Payments) / sum(Starting_Debt) as Debt_Survival_Rate_12M
 --   left join survival_rates SR12 on SR.Ledger_Segment = SR12.Ledger_Segment and left(SR12.Debt_Age,1) = 'h' and SR.Month_End = SR12.Month_End
 --   left join survival_rates SR24 on SR.Ledger_Segment = SR24.Ledger_Segment and left(SR24.Debt_Age,1) = 'i' and SR.Month_End = SR24.Month_End
 -- --),
+
+--test2
 ------------------------------------------
 -- linreg as (
 -- SELECT Bucket,
