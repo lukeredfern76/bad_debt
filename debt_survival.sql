@@ -1,4 +1,5 @@
  -- Stage 3: Debt Survival
+--test
 CREATE TEMP TABLE Dates AS -- Create a list of the last 12 month ends as this is needed to create an average survival curve using the last 12 month's data.
 SELECT
     Calendar_Date as Month_End
