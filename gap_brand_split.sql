@@ -5,7 +5,7 @@ select distinct
 Account_no, 
 Payment_Method_Category
 
-from `payg-revenue-assurance.account_gap_model.pa_revenue_reconciliation_master` as r
+from `payg-revenue-assurance.account_gap_model.pa_revenue_reconciliation_master` as r --test
 
 where 
      Reporting_Month = date_trunc(current_date(), month) - 1
